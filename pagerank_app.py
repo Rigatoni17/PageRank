@@ -6,14 +6,6 @@ import pandas as pd
 import json
 import tempfile
 
-hide_streamlit_style = """
-    <style>
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
 # Import the functions from Topic3.ipynb
 import functions
 
