@@ -6,6 +6,15 @@ import pandas as pd
 import json
 import tempfile
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Import the functions from Topic3.ipynb
 import functions
 
